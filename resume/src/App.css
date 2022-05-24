@@ -111,6 +111,16 @@ select {
   font: inherit;
 }
 
+/* remove underline from links and give them color */
+a {
+  text-decoration: none;
+  color: var(--clr-black);
+}
+
+a:visited {
+  color: var(--clr-black);
+}
+
 /* remove animations for people who've turned them off */
 @media (prefers-reduced-motion: reduce) {  
 *,

@@ -1,4 +1,5 @@
 import './App.css';
+import Navbar from './components/Navbar';
 
 function Design() {
   return (
@@ -29,6 +30,7 @@ function Design() {
           <h2 className='nav-text'>Navigational Text</h2>
         </div>
       </div>
+      <Navbar/>
 
     </div>
   );

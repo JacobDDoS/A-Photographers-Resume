@@ -9,6 +9,23 @@
     visibility: visible;
 }
 
+#link-list > a {
+    border-radius: 1px;
+    transition: all 0.2s linear;
+}
+
+#link-list > a:hover {
+    box-shadow: 0px 1.5px gray;
+}
+
+a[href="https://62857c18fe1ffd1573a66a8d--jolly-marigold-b51801.netlify.app/"] #dome {
+    transition: all 0.5s linear;
+}
+
+a[href="https://62857c18fe1ffd1573a66a8d--jolly-marigold-b51801.netlify.app/"]:hover #dome {
+    color: red;
+}
+
 #menu-icon {
     visibility: hidden;
     margin-right: 10px;

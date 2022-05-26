@@ -3,7 +3,7 @@ import './App.css';
 function Design() {
   return (
     <div>
-      <div style={{"padding": "20px"}}>
+      <div className="container" style={{"padding": "20px"}}>
         <h1>Design System</h1>
       </div>
       <div className="container bg-dark">

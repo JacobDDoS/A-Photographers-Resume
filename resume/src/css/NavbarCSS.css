@@ -11,7 +11,7 @@
 
 #link-list > a {
     border-radius: 1px;
-    transition: all 0.2s linear;
+    transition: box-shadow 0.2s linear;
 }
 
 #link-list > a:hover {
@@ -19,7 +19,7 @@
 }
 
 a[href="https://62857c18fe1ffd1573a66a8d--jolly-marigold-b51801.netlify.app/"] #dome {
-    transition: all 0.5s linear;
+    transition: color 0.5s linear;
 }
 
 a[href="https://62857c18fe1ffd1573a66a8d--jolly-marigold-b51801.netlify.app/"]:hover #dome {

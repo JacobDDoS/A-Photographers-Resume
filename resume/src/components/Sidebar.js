@@ -5,7 +5,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar" id="slide-negative">
         <div className="flex nav-text" style={{"flexDirection": "column"}}>
-            <a href="/home">Home</a>
+            <a href="/">Home</a>
             <a href="/contact">Contact</a>
             <a href="/about-me">About</a>
             <a href="/pricing">Prices</a>

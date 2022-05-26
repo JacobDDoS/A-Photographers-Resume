@@ -9,7 +9,7 @@ import Backdrop from './Backdrop'
 const Navbar = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   return (
-    <div className='container flex' style={{"marginTop": "50px"}}>
+    <div className='container flex' style={{"marginTop": "30px", "marginBottom": "20px"}}>
         {isSidebarOpen ? <> <Sidebar/> <Backdrop setIsSidebarOpen={setIsSidebarOpen}/> </>: null}
         <span id="dimmitt-dome-logo" className='flex' style={{"justifyContent":"flex-start"}}>
             <span onClick={()=>setIsSidebarOpen(!isSidebarOpen)} id="menu-icon">
@@ -22,7 +22,7 @@ const Navbar = () => {
             </h2>
         </span>
         <span id="link-list" className='item flex nav-text' style={{"--gap": "clamp(1.5rem, 5vw, 3.5rem)", "alignItems": "center"}}>
-            <a href="/home">Home</a>
+            <a href="/">Home</a>
             <a href="/contact">Contact</a>
             <a href="/about-me">About</a>
             <a href="/pricing">Prices</a>

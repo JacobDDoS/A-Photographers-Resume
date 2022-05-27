@@ -60,6 +60,15 @@ const Home = () => {
             </div>
         </div>
 
+
+        <div className="container" style={{"borderBottom": "2px solid gray", "marginTop": "6rem"}}></div>
+
+        <div className="full-container" style={{"marginTop": "3rem"}}>
+            <h1 className='heading-1 text-dark' style={{"textAlign": "center"}}>What are you waiting for? Do it!</h1>
+            <a href="/contact">
+                <h2 className='text-dark' style={{"textAlign": "center", "margin": "5rem 0 7rem 0"}}>- Contact Me! -</h2>
+            </a>
+        </div>
     </div>
   )
 }

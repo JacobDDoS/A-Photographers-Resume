@@ -1,0 +1,9 @@
+#footer {
+    width: 100vw;
+    min-height: 100px;
+    background-color: rgb(231, 227, 220);
+}
+
+#footer > div {
+    align-self: center;
+}

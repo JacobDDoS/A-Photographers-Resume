@@ -1,20 +1,20 @@
 import React from 'react'
 import '../css/FooterCSS.css'
-import GitHubLogo from './GitHub-Mark-Light-32px.png'
+import GitHubLogo from '../images/GitHub-Mark-32px.png'
 
 const Footer = () => {
   return (
-    <div id="footer" className='flex' style={{"justifyContent": "space-between", 'padding': "3rem"}}>
-        <div>
-            <p className='story-text' style={{"fontSize": "1rem"}}>Copyright DimmittDome</p>
+    <div id="footer" className='grid' style={{"--columns": "3", 'padding': "3rem"}}>
+        <div className='t-center'>
+            <p className='story-text' style={{"fontSize": "1rem"}}>© Copyright DimmittDome</p>
         </div>
-        <div>
+        <div className='t-center'>
             <a href="https://github.com/JacobDDoS">
-                <img src={GitHubLogo} alt="gitHub Logo" />
+                <img src={GitHubLogo} alt="gitHub Logo" style={{"display": "inline"}} />
             </a>
         </div>
-        <div>
-            <p className='story-text' style={{"fontSize": "1rem"}}>Back to the top</p>
+        <div className='t-center'>
+            <a href="#dome" className='story-text' id="to-top-text" style={{"fontSize": "1rem"}}>Back to top</a>
         </div>
         
     </div>

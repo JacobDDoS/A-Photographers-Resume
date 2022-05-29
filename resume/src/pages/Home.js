@@ -1,5 +1,6 @@
 import React from 'react'
 import Story from '../components/Story'
+import '../css/HomeCSS.css'
 
 const Home = () => {
   const storyData = [
@@ -65,9 +66,9 @@ const Home = () => {
 
         <div className="full-container" style={{"marginTop": "3rem"}}>
             <h1 className='heading-1 text-dark' style={{"textAlign": "center"}}>What are you waiting for? Do it!</h1>
-            <a href="/contact">
-                <h2 className='text-dark' style={{"textAlign": "center", "margin": "5rem 0 7rem 0"}}>- Contact Me! -</h2>
-            </a>
+            <div className='container flex' style={{"justifyContent": "center"}}>
+                <h2 className='text-dark'  style={{"textAlign": "center", "margin": "5rem 0 7rem 0"}}><span>- </span> <a href="/contact" id="contact-me-text">Contact Me!</a> <span> -</span></h2>
+            </div>
         </div>
     </div>
   )
